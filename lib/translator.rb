@@ -13,8 +13,8 @@ emoticon_hash = {
   emoticons.each do |meaning, emoticons|
     english_emoticon = emoticons[0]
     japanese_emoticon = emoticons[-1]
-   emoticon_hash["get_meaning"] = meaning
-   emoticon_hash["get_emoticon"] = english_emoticon
+   emoticon_hash["get_meaning"][japanese] = meaning
+   emoticon_hash["get_emoticon"][english] = english_emoticon
  end
 emoticon_hash
 end
