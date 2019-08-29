@@ -9,7 +9,7 @@ emoticon_hash = {}
 # emoticons.each do |emoticon|
 # emoticon_hash[:get_meaning] = Hash[emoticons.map {|emoticon| [emoticon[-1], emoticon]}]
 # emoticon_hash[:get_emoticon] = Hash[emoticons.map {|emoticon| [emoticon[0], emoticon[-1]]}]
-# 
+#
 # end
 emoticon_hash
 end
