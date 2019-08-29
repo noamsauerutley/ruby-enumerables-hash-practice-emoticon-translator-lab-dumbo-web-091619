@@ -7,10 +7,11 @@ def load_library("lib/emoticons.yml")
 emoticon_hash = {}
 emoticon_hash[:get_meaning] = {}
 emoticon_hash[:get_emoticon] = {}
- emoticons.each do |meaning, emoticons|
-  emoticon_hash[:get_meaning] << meaning
-  emoticon_hash[:get_emoticon] << emoticons[0]
-end
+return emoticons
+#  emoticons.each do |meaning, emoticons|
+#   emoticon_hash[:get_meaning] << meaning
+#   emoticon_hash[:get_emoticon] << emoticons[0]
+# end
 emoticon_hash
 end
 
