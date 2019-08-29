@@ -4,7 +4,6 @@ require "pathname"
 path = Pathname.new("./lib/emoticons.yml")
 
 def load_library(path)
-
 emoticons = YAML.load_file(path)
   # code goes here
 emoticon_hash[:get_meaning] = {}
