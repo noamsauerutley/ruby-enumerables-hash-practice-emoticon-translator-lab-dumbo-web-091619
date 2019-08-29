@@ -14,7 +14,7 @@ emoticon_hash = {
     english_emoticon = emoticons[0]
     japanese_emoticon = emoticons[-1]
    emoticon_hash["get_meaning"][japanese_emoticon] = meaning
-   emoticon_hash["get_emoticon"][english] = japanese_emoticon
+   emoticon_hash["get_emoticon"][english_emoticon] = japanese_emoticon
  end
 emoticon_hash
 end
