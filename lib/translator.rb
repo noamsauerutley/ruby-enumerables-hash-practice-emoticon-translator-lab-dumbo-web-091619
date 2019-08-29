@@ -23,7 +23,9 @@ def get_japanese_emoticon(path, emoticon)
   # code goes here
   emoticon_hash = load_library(path)
   if emoticon_hash.includes?(emoticon)
-    return emoticon_hash[emoticon]
+    return emoticon_hash["get_emoticon"][emoticon]
+  else
+    return "That is not a known emoticon :("
 end
 
 def get_english_meaning
