@@ -9,7 +9,6 @@ emoticons = YAML.load_file(path)
 emoticon_hash= {}
 emoticon_hash[:get_meaning] = {}
 emoticon_hash[:get_emoticon] = {}
-return emoticons
 #  emoticons.each do |meaning, emoticons|
 #   emoticon_hash[:get_meaning] << meaning
 #   emoticon_hash[:get_emoticon] << emoticons[0]
