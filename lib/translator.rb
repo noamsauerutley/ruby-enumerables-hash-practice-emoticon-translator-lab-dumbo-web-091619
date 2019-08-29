@@ -21,8 +21,8 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   # code goes here
-  load_library(path)
-
+  emoticons = load_library(path)
+  if emoticons.includes?
 end
 
 def get_english_meaning
