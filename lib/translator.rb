@@ -7,8 +7,8 @@ def load_library(emoticons)
 emoticon_hash = {}
 emoticon_hash[:get_meaning] = {}
 emoticon_hash[:get_emoticon] = {}
-# emoticons.each do |emoticon|
-# emoticon_hash[:get_meaning] = Hash[emoticons.map {|emoticon| [emoticon[-1], emoticon]}]
+ emoticons.each do |emoticon|
+ emoticon_hash[:get_meaning] << Hash[emoticons.map {|emoticon| [emoticon[-1], emoticon]}]
 # emoticon_hash[:get_emoticon] = Hash[emoticons.map {|emoticon| [emoticon[0], emoticon[-1]]}]
 #
 # end
